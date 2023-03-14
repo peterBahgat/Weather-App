@@ -1,0 +1,81 @@
+/* ---- Base Rules ---- */
+
+html {
+  display: grid;
+  text-align: center;
+  scroll-behavior: smooth;
+  font-family: "Merriweather", serif;
+}
+
+body {
+  display: grid;
+  background-color: cornsilk;
+}
+
+/* Typeography General*/
+
+#whole {
+  background-color: black;
+  opacity: 80%;
+  color: cornsilk;
+  border-radius: 30px;
+  margin: 1%;
+}
+
+#inputs {
+  margin: 0.1%;
+  display: grid;
+}
+
+#label1 {
+  margin: 0.1%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#label2 {
+  margin: 0.1%;
+  margin-top: 0.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#zip {
+  margin: 0.1%;
+  text-align: center;
+  border: 30px;
+  border-radius: 30px;
+  margin-right: 35%;
+  margin-left: 35%;
+  height: 100%;
+  background-color: rgb(253, 248, 228);
+}
+
+#feelings {
+  margin: 0.1%;
+  text-align: center;
+  border: 30px;
+  border-radius: 30px;
+  margin-right: 35%;
+  margin-left: 35%;
+  height: 80%;
+  background-color: rgb(253, 248, 228);
+}
+#generate {
+  font-weight: bold;
+  height: fit-content;
+  font-size: 20px;
+  border: 30px;
+  border-radius: 30px;
+  margin: 1%;
+  text-align: center;
+  margin-right: 43%;
+  margin-left: 43%;
+  background-color: chocolate;
+  transition: 0.3 ms;
+}
+#generate:hover {
+  cursor: pointer;
+  background-color: rgb(178, 83, 15);
+}
+#icon {
+  margin-top: 1%;
+}

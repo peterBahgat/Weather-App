@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Journal app</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="whole">
+        <img src="img/onlinelogomaker-011023-1128-9385-2000-transparent.png" id="icon">
+        <h1>Weather Journal App</h1>
+        <div id="container">
+            <div id="inputs">
+                <label id= "label1" for="zip">ZIP Code</label>
+                <input type="text" id="zip" placeholder="Enter zip code">
+                <label id= "label2" for="feelings">Feelings</label>
+                <textarea name="feelings" id="feelings" placeholder="How are you today ?"></textarea>
+                <button id="generate" type="submit">Generate</button>
+            </div>
+            <div id="outputs">
+                <div id="result">
+                    <p id="date"></p>
+                    <p id="temp"></p>
+                    <p id="description"></p>
+                    <p id="city"></p>
+                    <p id="country"></p>
+                    <p class="feelings"></p>
+                </div>
+                <div id="message">
+                    <p id="error"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script> 
+</body>
+</html>
